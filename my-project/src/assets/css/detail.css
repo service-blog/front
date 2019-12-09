@@ -1,0 +1,20 @@
+body {
+	padding: 40px;
+	background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543264830828&di=b1fd339d869d68de06d5699c985d1883&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F14%2F64%2F66%2F70a58PIC8eI_1024.jpg);
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+	text-align: center;
+	font-family: STKaiti;
+}
+.wrap {
+	margin: auto;
+	border: 5px dotted #0080FF;
+	border-radius: 2%;
+	width: 30%;
+}
+p {
+	margin-left: 20px;
+}
+}

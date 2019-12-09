@@ -1,0 +1,195 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%, 100%;
+}
+h2 {
+    color: white;
+}
+.headLine {
+    font-size: 50px;
+    font-family: Didot;
+    color: white;
+    text-align: center;
+}
+.container input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.handleWrap {
+    position: relative;
+    top: 150px;
+    margin: auto;
+    width: 30%;
+    border-radius: 5px;
+    border: 5px dotted #00FFFF;
+    text-align: center;
+    animation: down 2s;
+}
+.error1,.error2 {
+    font-size: 5px;
+    color: red;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+}
+#outButton{
+    width:30%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.comment {
+    height: 50px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    overflow: auto;
+}
+.title {
+    width: 80%;
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+}
+.writeWrap {
+    text-align: left;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+.article{
+    width: 80%;
+    height: 600px;
+    background:none;
+    font-size: 20px;
+    margin: 20px auto;
+}
+.headT{
+    background: none;
+}
+.wrapper {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.text{
+    text-align: left;
+}
+.commentArea,.commentsCount{
+    text-align: left;
+}
+.menu {
+    margin-top: 40px;
+}
+.container input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.handleWrap {
+    position: relative;
+    top: 150px;
+    margin: auto;
+    width: 30%;
+    border-radius: 5px;
+    border: 5px dotted #00FFFF;
+    text-align: center;
+    animation: down 2s;
+}
+.detail {
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+.comments{
+    list-style-image: url(/images/user.jpg);
+    list-style-position: 0px, 0px;
+    text-align: left;
+}
+.comments>li {
+    background-color: gray;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid white;
+}
+.menu>a, .write>a{
+    border: 1px solid white;
+    border-radius: 12%;
+    margin: 0px 20px;
+    text-decoration: none;
+    padding:0px 20px;
+}
+.comment {
+    height: 50px;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    overflow: auto;
+}
+#search {
+    width: 50%;
+    font-size: 16px;
+    color: black;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+ .search{
+    text-align: left;
+ }
+#blogList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.write {
+    width: 20%;
+    text-align: left;
+    text-decoration: none;
+}
+#blogList li a {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 2px 10px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+
+#blogList li a:hover{
+    background-color: #eee;
+    cursor: pointer;
+}

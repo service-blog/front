@@ -1,0 +1,57 @@
+body {
+	padding: 40px;
+	background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543264830828&di=b1fd339d869d68de06d5699c985d1883&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F14%2F64%2F66%2F70a58PIC8eI_1024.jpg);
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+	text-align:  center;
+	margin-left: -5%;
+	font-family: STKaiti;
+}
+
+form {
+	padding-top: 20px;
+	width: 66%;
+	margin: auto;
+	border: 5px dotted #0080FF;
+	border-radius: 2%;
+}
+form div:not(.error) {
+	height:  60px;
+}
+form label {
+	display: inline-block;
+	width: 60px;
+	text-align:  right;
+	padding-right: 20px;
+}
+form input {
+	margin-top: 20px;
+	width: 40%;
+	height: 30px;
+	font-size:18px;
+	color: none;
+}
+.error {
+	color: #D01919;
+	margin-left: 20px;
+}
+form span.error {
+	width: 20%;
+	padding: 10px;
+}
+div.buttons{
+	text-align: center;
+}
+.submit {
+	width: 15%;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.reset{
+	width: 15%;
+	margin-left: 10%;
+	height: 25px;
+	font-size: 20px;
+}
