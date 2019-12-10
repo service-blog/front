@@ -2,9 +2,9 @@
 	<div class="wrapper">
 		<h1>My blog</h1>
 		<nav class="menu">
-			<a href="/index">首页</a>
-			<a href="/blog">博客</a>
-			<a href="/photo">图片</a>
+			<a v-bind:href="'/index/' + this.$route.params.username">首页</a>
+			<a v-bind:href="'/blog/' + this.$route.params.username">博客</a>
+			<a v-bind:href="'/photo/' + this.$route.params.username">图片</a>
 		</nav>
 		<div class="detail">
 			<h1>{{blog.titile}}</h1>
